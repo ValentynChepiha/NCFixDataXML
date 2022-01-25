@@ -1,13 +1,12 @@
 package ua.edu.sumdu.j2se.chepiha.fixer;
 
-/**
- * Hello world!
- *
- */
+import ua.edu.sumdu.j2se.chepiha.fixer.controllers.XMLController;
+
 public class Main
 {
     public static void main( String[] args )
     {
-        System.out.println( "Hello World!" );
+        XMLController app = new XMLController();
+        app.run();
     }
 }

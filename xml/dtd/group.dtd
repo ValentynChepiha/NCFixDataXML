@@ -1,5 +1,5 @@
-<!ELEMENT group (student *)>
-<!ELEMENT student (subject *, average?)>
+<!ELEMENT group (student*)>
+<!ELEMENT student (subject*, average?)>
 <!ATTLIST student
         firstname CDATA #REQUIRED
         lastname CDATA #REQUIRED
